@@ -1,0 +1,13 @@
+{
+  "name": "twitch-gql",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This contains the current schema and introspected schema which can be viewed to browse the available queries of the GQL API.\r - The [introspection schema](https://github.com/daylamtayari/Twitch-GQL/blob/master/introspectionSchema.json): [https://github.com/daylamtayari/Twitch-GQL/blob/master/introspectionSchema.json](https://github.com/daylamtayari/Twitch-GQL/blob/master/introspectionSchema.json)\r - The [schema](https://github.com/daylamtayari/Twitch-GQL/blob/master/schema.graphql): [https://github.com/daylamtayari/Twitch-GQL/blob/master/schema.graphql](https://github.com/daylamtayari/Twitch-GQL/blob/master/schema.graphql)",
+  "main": "main.js",
+  "scripts": {
+    "remove:comments": "node remove-comments.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
